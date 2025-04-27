@@ -1,0 +1,7 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/opt/projects/sisifo-auth/run.py", line 2, in <module>
+    from app import create_app
+  File "/opt/projects/sisifo-auth/app/__init__.py", line 2, in <module>
+    from flask_mysqldb import MySQL
+ModuleNotFoundError: No module named 'flask_mysqldb'
